@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Inicio",
+        "href": "inicio",
+        "icon": "HomeIcon",
+        "current": true,
+        "profiles": [
+            
+            "usuario"
+        ]
+    },
+    {
+        "name": "Expediente Tramite",
+        "href": "expedientes",
+        "icon": "IdentificationIcon",
+        "current": false,
+        "profiles": [
+            
+            "usuario"
+        ]
+    },
+    {
+        "name": "Tramites",
+        "href": "tramites",
+        "icon": "DocumentTextIcon",
+        "current": false,
+        "profiles": [
+            
+            "usuario"
+        ]
+    }
+    
+]

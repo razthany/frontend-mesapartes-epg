@@ -35,19 +35,19 @@ onMounted(() => {
     <div class="flex-1 flex flex-col justify-center px-4 sm:px-6 lg:flex-none lg:px-20 xl:px-24">
       <div class="mx-auto w-full max-w-sm lg:w-96">
         <div>
-          <img class="h-16 w-auto" src="/src/media/img/epg-2022.png" alt="logo-epg">
-          <h2 class="mt-6 text-3xl font-semibold text-primary-700">
-            Gestión de matrícula
+          <img class="h-16 w-auto " src="/src/media/img/epg-2022.png" alt="logo-epg">
+          <h2 class="mt-6 text-2xl font-semibold text-primary-700">
+            MESA DE PARTES - VIRTUAL
           </h2>
           <p class="mt-2 text-sm text-gray-600 uppercase">
-            Oficina de Asuntos Académicos
+            Mesa de Partes - EPG
           </p>
         </div>
         <div class="mt-6">
           <form class="space-y-6" @submit.prevent="login">
             <div>
               <label for="email" class="block text-sm font-medium text-gray-700">
-                Dirección de correo electrónico
+                Usuario
               </label>
               <div class="mt-1">
                 <input
@@ -79,7 +79,7 @@ onMounted(() => {
                 <label for="remember-me" class="ml-2 block text-sm text-gray-900"> Recuérdame </label>
               </div>
               <div class="text-sm">
-                <a href="https://bit.ly/3tzPHqt" target="_blank" class="font-medium text-primary-500 hover:text-cyan-900">Descargar Manual</a>
+                <a href="#" target="_blank" class="font-medium text-primary-500 hover:text-cyan-900">Descargar Manual</a>
               </div>
               <!-- <div class="text-sm">
                 <a href="#" class="font-medium text-primary-500 hover:text-cyan-900"> ¿Olvidaste tu contraseña? </a>
@@ -97,9 +97,9 @@ onMounted(() => {
         </div>
       </div>
     </div>
-    <div class="hidden lg:block relative w-0 flex-1">
+    <div class="hidden lg:block relative w-0 flex-1 ">
       <img
-        class="absolute inset-0 h-full w-full object-cover" src="/src/media/img/ingreso-epg.jpg"
+        class="absolute   w-full h-full" src="/src/media/img/epg-mp.svg"
         alt="Puerta principal"
       >
     </div>
