@@ -5,6 +5,9 @@ import '@vue/runtime-core'
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    Adjunto_tramite: typeof import('./src/components/adjunto_tramite.vue')['default']
+    Derivar_tramite: typeof import('./src/components/derivar_tramite.vue')['default']
+    Nuevo_tramite: typeof import('./src/components/nuevo_tramite.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
