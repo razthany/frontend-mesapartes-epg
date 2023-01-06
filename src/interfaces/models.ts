@@ -43,3 +43,13 @@ export interface TramiteModel {
   fecha_hora: string
 
 }
+
+export interface PersonaModel {
+  id: number
+  nombres: string
+  apellido_paterno: string
+  apellido_materno: string
+  numero_documento: string
+  correo: string
+  celular: string
+}
