@@ -26,3 +26,20 @@ export interface UsuarioGrupo {
   id: number
   name: string
 }
+
+export interface TramiteModel {
+  id: number
+  persona_id: number
+  persona_entidad: string
+  num_documento: string
+  tipo_tramite_id: number
+  tipo_tramite: string
+  asunto: string
+  num_doc_referencia: number
+  usuario_id: number
+  usuario: string
+  sede_id: number
+  sede: string
+  fecha_hora: string
+
+}
